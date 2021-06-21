@@ -41,7 +41,14 @@ npm i --save react-native-gallery-toolkit
 
 > Also, you need to install [react-native-reanimated@2.0.0-alpha.7](https://github.com/software-mansion/react-native-reanimated) (the new 2 version) and [react-native-gesture-handler](https://github.com/software-mansion/react-native-gesture-handler), and follow their installation instructions.
 
-Expo is not currently supported because this library uses the latest version of Reanimated 2 (expo supports right now only alpha.6.1).
+Expo is supported since SDK 40. 
+
+```bash
+npm install react-native-reanimated@2.0.0-rc.0
+```
+
+> More information is available [https://docs.expo.io/versions/latest/sdk/reanimated/](here)
+
 
 ## Standalone gallery
 
